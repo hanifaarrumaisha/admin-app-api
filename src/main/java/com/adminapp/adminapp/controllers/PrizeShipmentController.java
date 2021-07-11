@@ -21,7 +21,7 @@ import com.adminapp.adminapp.model.PrizeShipment;
 import com.adminapp.adminapp.service.PrizeShipmentService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
+@CrossOrigin(origins = ["http://localhost:3000"], allowCredentials = "true", maxAge = 3600)
 @RequestMapping("/api/prizeshipments")
 public class PrizeShipmentController {
 	@Autowired

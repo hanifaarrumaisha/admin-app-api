@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.adminapp.adminapp.service.ProductService;
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/product")
 public class ProductController {
